@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react'
+import React, { useState } from 'react'
 import Button from './Button'
 import Image from "next/image";
 
@@ -9,6 +9,9 @@ import Wrapper from './Wrapper';
 
 
 const Navigation = () => {
+
+const [dialogue , setDialogue]=useState(false)
+
     return (
         <Wrapper
         id="TopNavigation"
@@ -23,9 +26,9 @@ const Navigation = () => {
           <h1 className='text-[16px] text-center font-audiowide'>Open Source <br/> Economy</h1>
           
     </div>
-            {/* <Link href={"/auth/login"} >
-                <Button text="Connect" style="bg-red-success rounded-full text-white-main  "  />
-            </Link> */}
+            <Link href={"/auth/login"} >
+                <Button text="Connect" style="bg-red-success rounded-full text-white-main  " onClick={() => setDialogue(true)} />
+            </Link>
             
 </Wrapper>
         
