@@ -23,9 +23,9 @@ const Navigation = () => {
           <h1 className='text-[16px] text-center font-audiowide'>Open Source <br/> Economy</h1>
           
     </div>
-            <Link href={"/auth/login"} >
+            {/* <Link href={"/auth/login"} >
                 <Button text="Connect" style="bg-red-success rounded-full text-white-main  "  />
-            </Link>
+            </Link> */}
             
 </Wrapper>
         
