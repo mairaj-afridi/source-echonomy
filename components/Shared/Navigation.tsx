@@ -24,7 +24,7 @@ const Navigation = () => {
           
     </div>
             <Link href={"/auth/login"} >
-                <Button text="Connect" style="bg-red-success rounded-full text-white-main  " onClick={() => setDialogue(true)} />
+                <Button text="Connect" style="bg-red-success rounded-full text-white-main  "  />
             </Link>
             
 </Wrapper>
