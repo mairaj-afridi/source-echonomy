@@ -1,11 +1,22 @@
+import Footer from '@/components/Shared/Footer'
+import Navigation from '@/components/Shared/Navigation'
+import Home from '@/views/Home'
 import Image from 'next/image'
+import { Fragment } from "react";
 
-export default function Home() {
+export const metadata = {
+  title: 'Welcome | Konnect.io',
+  description: 'Welcome | Konnect.io',
+}
+
+export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
-
-      <h1>hellow bro</h1>
-    </main>
+    <Fragment>
+  
+    <Navigation/>
+      <Home />
+      <Footer />
+      </Fragment>
+    
   )
 }
