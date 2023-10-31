@@ -12,9 +12,9 @@ const Hero = () => {
 
 
     return (
-        <section className='flex items-center flex-col gap-6 bg-brand-main  justify-center '>
+        <section className='flex items-center flex-col g pt-12 bg-brand-main  justify-center '>
             <aside className="lg:w-[70%] w-full h-full flex flex-col justify-center items-center">
-                <h1 className="text-black-500 text-center text-white-main md:text-[60px] text-[30px] md:leading-[70px] leading-[40px] font-audiowide ">
+                <h1 className="text-black-500 text-center text-white-main  lea md:text-[60px] text-[30px] md:leading-[70px] leading-[40px] font-audiowide ">
                     Fastest  & secure <br /> <span className="text-red-success   ">open-source</span> marketplace
                 </h1>
                 <p className="md:text-[20px] text-white-off text-center leading-7 text-[14px] text-black-300">
@@ -28,8 +28,14 @@ const Hero = () => {
                 <Link href={"/"} className="absolute right-0 bottom-0   w-[145px] h-[116px]" >
                     <Image src={"/Intersect1.jpeg"} priority alt="konnect.io logo" fill sizes="" className="object-contain h-40 w-20 pointer-events-none" />
                 </Link>
-
             </div>
+
+<div  className="">
+<h1 className="text-black-500 text-center text-white-main  lea md:text-[52px] text-[26px] md:leading-[70px] leading-[40px] font-audiowide ">
+            Projects
+                </h1>
+</div>
+           
 
         </section>
 
