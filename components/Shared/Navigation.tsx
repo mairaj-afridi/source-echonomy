@@ -27,7 +27,7 @@ const [dialogue , setDialogue]=useState(false)
           
     </div>
             <Link href={"/auth/login"} >
-                <Button text="Connect" style="bg-red-success rounded-full text-white-main  " onClick={() => setDialogue(true)} />
+                <Button text="Connect" style="bg-red-success h-[50px] py-[12px] px-[36px] w-[156px]  rounded-full text-white-main  " onClick={() => setDialogue(true)} />
             </Link>
             
 </Wrapper>
