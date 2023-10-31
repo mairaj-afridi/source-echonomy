@@ -15,7 +15,7 @@ const [dialogue , setDialogue]=useState(false)
     return (
         <Wrapper
         id="TopNavigation"
-        outerContainerStyle={`h-[104px] bg-brand-primary sticky  z-[100]"} bg-black-secondary text-white-main `}
+        outerContainerStyle={`h-[104px] bg-brand-primary sticky  z-[100]"} bg-brand-main text-white-main `}
         innerContainerStyle="flex justify-between items-center"
     >
         <div className='flex items-center justify-center gap-[14px]'>
