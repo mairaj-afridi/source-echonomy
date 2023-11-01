@@ -12,7 +12,7 @@ const Hero = () => {
 
 
     return (
-        <section className='flex items-center flex-col g pt-12 bg-brand-main  justify-center '>
+        <section className='flex items-center flex-col gap-20 pt-12 bg-brand-main  justify-center '>
             <aside className="lg:w-[70%] w-full h-full flex flex-col justify-center items-center">
                 <h1 className="text-black-500 text-center text-white-main  lea md:text-[60px] text-[30px] md:leading-[70px] leading-[40px] font-audiowide ">
                     Fastest  & secure <br /> <span className="text-red-success   ">open-source</span> marketplace
@@ -30,12 +30,25 @@ const Hero = () => {
                 </Link>
             </div>
 
-<div  className="">
-<h1 className="text-black-500 text-center text-white-main  lea md:text-[52px] text-[26px] md:leading-[70px] leading-[40px] font-audiowide ">
-            Projects
+            <div className="">
+                <h1 className="text-black-500 text-center text-white-main  lea md:text-[52px] text-[26px] md:leading-[70px] leading-[40px] font-audiowide ">
+                    Projects
                 </h1>
-</div>
-           
+            </div>
+
+            {/* main div */}
+            <div className="bg-yellow-300 flex items-center justify-center gap-5">
+                <div className="w-60 h-60  bg-white-off p-6">
+                    justify
+                </div>
+                {/* <div className="w-60 h-60  bg-white-off">
+                    justify
+                </div>  */}
+                {/* <div className="w-60 h-60  bg-white-off">
+                    justify
+                </div> */}
+            </div>
+
 
         </section>
 
