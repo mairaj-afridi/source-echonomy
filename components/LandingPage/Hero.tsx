@@ -38,15 +38,33 @@ const Hero = () => {
 
             {/* main div */}
             <div className="bg-yellow-300 flex items-center justify-center gap-5">
-                <div className="w-60 h-60  bg-white-off p-6">
-                    justify
+                <div className="w-[540px] h-[396px]  bg-[#132743] rounded-3xl">
+                    {/* upper div */}
+                    <div className="bg-green-500 p-6 flex gap-6 w-full h-[120px]  ">
+                        {/* <Image src={"/SVG/Vector.svg"} priority alt="" fill sizes="" /> */}
+
+                            <Image
+                                src="/SVG/Vector.svg"  // Path to the image in the public directory
+                                alt="My Image"
+                                width={53}          // The desired width of the image
+                                height={57}         // The desired height of the image
+                            />
+                        <div className="flex items-start flex-col justify-between  ">
+                            <div className="flex items-center justify-center  flex-row gap-2 ">
+
+                            <h1 className="text-[24px]">xMoney</h1>
+                            <h2 className="text-[16px]">UTK</h2>
+                            </div>
+                            <p className="text-[16px] leading-5">The solution to make Open-Source <br /> as Competitive as Closed Source.</p>
+                        </div>
+                    </div>
+
+                    {/* down div */}
+                    <div className="bg-green-200 w-full h-full  ">
+                        hfakjhkjhkjkhjjjjhhjkhjkjhkhjk
+                    </div>
                 </div>
-                {/* <div className="w-60 h-60  bg-white-off">
-                    justify
-                </div>  */}
-                {/* <div className="w-60 h-60  bg-white-off">
-                    justify
-                </div> */}
+
             </div>
 
 
