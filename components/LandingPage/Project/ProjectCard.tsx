@@ -11,7 +11,7 @@ interface Props {
 
 function ProjectCard({ image,status,name,images,fullimage }:Props){
   return (
-    <div className="w-[540px] h-[396px]  bg-[#132743] rounded-3xl">
+    <div className=" w-[440px] m-4 sm:w-[540px] h-[330px] sm:h-[396px]  bg-[#132743] rounded-3xl">
     {/* upper div */}
     <div className=" p-6 flex gap-6 w-full h-[120px]  justify-between  ">
         {/* <Image src={"/SVG/Vector.svg"} priority alt="" fill sizes="" /> */}

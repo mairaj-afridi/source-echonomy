@@ -11,7 +11,7 @@ const Project = () => {
                     Projects
                 </h1>
             </div>
-            <div className='grid grid-cols-2 gap-7'>
+            <div className=' grid xl:grid-cols-2   grid-cols-1 gap-7'>
 
                 {CardData.map((item, index) => (
                     <div key={index} className="flex items-center justify-center gap-5">

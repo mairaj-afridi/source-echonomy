@@ -14,20 +14,19 @@ const [dialogue , setDialogue]=useState(false)
 
     return (
         <Wrapper
-        id="TopNavigation"
-        outerContainerStyle={`h-[104px] bg-brand-primary sticky  z-[100]"} bg-brand-main text-white-main `}
+        outerContainerStyle={`h-[80px] bg-brand-primary sticky  z-[100]"} bg-brand-main text-white-main `}
         innerContainerStyle="flex justify-between items-center"
     >
         <div className='flex items-center justify-center gap-[14px]'>
          {/* Logo */}
-         <Link href={"/"} className="relative  w-[50px] h-[40px]" >
+         <Link href={"/"} className="relative  w-[38px] md:w-[50px] h-[30px] md:h-[40px]" >
          <Image src={"/Logo/logo.png"} priority alt="konnect.io logo" fill sizes="" className="object-contain pointer-events-none" />
         </Link>
-          <h1 className='text-[16px] text-center font-audiowide'>Open Source <br/> Economy</h1>
+          <h1 className='md:text-[16px] text-[12px] text-center font-audiowide'>Open Source <br/> Economy</h1>
           
     </div>
             <Link href={"/auth/login"} >
-                <Button text="Connect" style="bg-red-success h-[50px] py-[12px] px-[36px] w-[156px]  rounded-full text-white-main  " onClick={() => setDialogue(true)} />
+                <Button text="Connect" style="bg-red-success  py-[10px] md:py-[14px] px-[25px] md:px-[36px]  rounded-full text-white-main  " onClick={() => setDialogue(true)} />
             </Link>
             
 </Wrapper>
