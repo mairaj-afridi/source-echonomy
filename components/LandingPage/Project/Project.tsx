@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 
 const Project = () => {
     return (
-        <section className='flex items-center  pb-32 flex-col gap-20 bg-brand-main  justify-center '>
+        <section className='flex items-center  pb-32 flex-col gap-16 sm:gap-20  bg-brand-main  justify-center '>
             <div className="">
                 <h1 className="text-black-500 text-center text-white-main  lea md:text-[52px] text-[26px] md:leading-[70px] leading-[40px] font-audiowide ">
                     Projects
