@@ -20,9 +20,12 @@ const Hero = () => {
                 </p>
             </aside>
             <div className=" w-[300px] h-[115px] flex items-center justify-start relative  ">
-                <Link href={"/auth/login"} className="absolute bottom-0 " >
+                {/* <Link href={"/auth/login"} className="absolute bottom-0 " > */}
+                    <div className="absolute bottom-0 ">
+
                     <Button text="Register a Project" style="bg-red-success h-[45px] md:h-[50px]  py-[20px] px-[46px] w-[208px] md:w-[200px]    rounded-full text-white-main  " onClick={() => setDialogue(true)} />
-                </Link>
+                    </div>
+                {/* </Link> */}
                 <Link href={"/"} className="absolute right-0 bottom-0 w-[120px] md:w-[145px] h-[104px] md:h-[116px]" >
                     <Image src={"/Intersect1.jpeg"} priority alt="konnect.io logo" fill sizes="" className="object-contain h-40 w-20 pointer-events-none" />
                 </Link>

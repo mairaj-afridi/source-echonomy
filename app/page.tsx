@@ -12,10 +12,9 @@ export const metadata = {
 export default function Page() {
   return (
     <Fragment>
-    <Navigation/>
+      <Navigation />
       <Home />
       <Footer />
-      </Fragment>
-    
+    </Fragment>
   )
 }
